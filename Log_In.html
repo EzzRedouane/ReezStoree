@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reez Store | Log In</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <style>
+   *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+    
+    .page{
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background-image: url(../Images/background.webp);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      padding: 30px 200px 0 200px;
+    }
+    .page .container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      background-color: transparent;
+      border: 2px solid rgba(255, 255, 255, .2);
+      backdrop-filter: blur(20px);
+      box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+      height: 500px;
+      border-radius: 20px;
+      padding: 30px 40px;
+    }
+    .page .container .content{
+      text-align: center;
+      max-width: 600px;
+      color: white;
+    }
+    .page .container .content h2{
+      color: rgb(204, 6, 6);
+      font-size: 3em;
+      letter-spacing: 0.03em;
+    }
+    .page .container .content p{
+      font-size: 18px;
+      letter-spacing: 0.03em;
+      color: white;
+      margin-top: 14px;
+    }
+    .log{
+      color: white;
+      width: 50%;
+    }
+    .log h2{
+      color: rgb(204, 6, 6);
+      font-weight: 700;
+      font-size: 36px;
+      text-align: center;
+    }
+    .log .input-box{
+      width: 100%;
+      height: 50px;
+      margin: 30px 0;
+    }
+    .input-box input{
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      border: none;
+      outline: none;
+      border: 2px solid rgba(255, 255, 255, .2);
+      border-radius: 40px;
+      font-size: 16px;
+      color: white;
+      padding: 20px 45px 20px 20px;
+    }
+    .input-box input::placeholder{
+      color: white;
+    }
+    .log .remb-forg{
+      display: flex;
+      justify-content: space-between;
+      font-size: 14.5;
+      margin: -15px 0 15px;
+    }
+    .remb-forg label input{
+      accent-color: white;
+      margin-right: 3px;
+    }
+    .remb-forg a{
+      color: white;
+      text-decoration: none;
+    }
+    .remb-forg a:hover{
+      text-decoration: underline;
+    }
+    .log .btn{
+      width: 100%;
+      height: 45px;
+      background: white;
+      border: none;
+      outline: none;
+      border-radius: 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, .06);
+      cursor: pointer;
+      font-size: 16px;
+      color: #222;
+      font-weight: 600;
+    }
+    .log .register-link{
+      font-size: 14.5px;
+      text-align: center;
+      margin: 20px 0 15px;
+    }
+    .register-link p a{
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .register-link p a:hover{
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+<body> 
+  <!--LogIn Section-->
+  <section class="page">
+    <div class="container">
+      <div class="content">
+        <h2>Title</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem rerum minima sint porro assumenda odio libero quod aut! Vero nesciunt rem porro dolore delectus cumque laudantium deserunt minima autem voluptatibus.</p>
+      </div>
+      <div class="log">
+        <form>
+          <h2>Log In</h2>
+          <div class="input-box">
+            <input type="email" placeholder="Email" required>
+          </div>
+          <div class="input-box">
+            <input type="password" placeholder="Password" required>
+          </div>
+          <div class="remb-forg">
+            <label><input type="checkbox">Remember me</label>
+            <a href="#">Forget Password</a>
+          </div>
+          <button type="submit" class="btn">Log In</button>
+          <div class="register-link">
+            <p>Don't have an account? <a href="Sign_Up.html">Sign Up</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
